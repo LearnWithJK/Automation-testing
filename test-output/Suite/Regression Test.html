@@ -1,0 +1,188 @@
+<html>
+<head>
+<title>TestNG:  Regression Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Regression Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/9/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jul 04 20:39:05 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>7 seconds (7865 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.purna.runner.RunPurnaTest.runScenario()'><b>runScenario</b><br>Test class: com.purna.runner.RunPurnaTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login Scenario one", "Login Verification"</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;this.driver&quot; is null
+	at com.purna.libraries.BaseClass.getWebDriver(BaseClass.java:70)
+	at com.purna.stepdefinitions.Hooks.setUp(Hooks.java:24)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1846568576", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1846568576'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;this.driver&quot; is null
+	at com.purna.libraries.BaseClass.getWebDriver(BaseClass.java:70)
+	at com.purna.stepdefinitions.Hooks.setUp(Hooks.java:24)
+</pre></div></td>
+<td>0</td>
+<td>com.purna.runner.RunPurnaTest@710c2b53</td></tr>
+<tr>
+<td title='com.purna.runner.RunPurnaTest.runScenario()'><b>runScenario</b><br>Test class: com.purna.runner.RunPurnaTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able view purchase order successfully", "Purchase order functionality verification"</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;this.driver&quot; is null
+	at com.purna.libraries.BaseClass.getWebDriver(BaseClass.java:70)
+	at com.purna.stepdefinitions.Hooks.setUp(Hooks.java:24)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1833707324", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1833707324'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;this.driver&quot; is null
+	at com.purna.libraries.BaseClass.getWebDriver(BaseClass.java:70)
+	at com.purna.stepdefinitions.Hooks.setUp(Hooks.java:24)
+</pre></div></td>
+<td>0</td>
+<td>com.purna.runner.RunPurnaTest@710c2b53</td></tr>
+<tr>
+<td title='com.purna.runner.RunPurnaTest.runScenario()'><b>runScenario</b><br>Test class: com.purna.runner.RunPurnaTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to create supplier", "Verify Supplier module"</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;this.driver&quot; is null
+	at com.purna.libraries.BaseClass.getWebDriver(BaseClass.java:70)
+	at com.purna.stepdefinitions.Hooks.setUp(Hooks.java:24)
+</pre></div><a href='#' onClick='toggleBox("stack-trace882962176", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace882962176'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;this.driver&quot; is null
+	at com.purna.libraries.BaseClass.getWebDriver(BaseClass.java:70)
+	at com.purna.stepdefinitions.Hooks.setUp(Hooks.java:24)
+</pre></div></td>
+<td>0</td>
+<td>com.purna.runner.RunPurnaTest@710c2b53</td></tr>
+<tr>
+<td title='com.purna.runner.RunPurnaTest.runScenario()'><b>runScenario</b><br>Test class: com.purna.runner.RunPurnaTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login Scenario one", "Login Verification"</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;this.driver&quot; is null
+	at com.purna.libraries.BaseClass.getWebDriver(BaseClass.java:70)
+	at com.purna.stepdefinitions.Hooks.setUp(Hooks.java:24)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1688917723", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1688917723'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;this.driver&quot; is null
+	at com.purna.libraries.BaseClass.getWebDriver(BaseClass.java:70)
+	at com.purna.stepdefinitions.Hooks.setUp(Hooks.java:24)
+</pre></div></td>
+<td>0</td>
+<td>com.purna.runner.RunPurnaTest@710c2b53</td></tr>
+<tr>
+<td title='com.purna.runner.RunPurnaTest.runScenario()'><b>runScenario</b><br>Test class: com.purna.runner.RunPurnaTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able delete purchase order successfully", "Purchase order functionality verification"</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;this.driver&quot; is null
+	at com.purna.libraries.BaseClass.getWebDriver(BaseClass.java:70)
+	at com.purna.stepdefinitions.Hooks.setUp(Hooks.java:24)
+</pre></div><a href='#' onClick='toggleBox("stack-trace810672306", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace810672306'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;this.driver&quot; is null
+	at com.purna.libraries.BaseClass.getWebDriver(BaseClass.java:70)
+	at com.purna.stepdefinitions.Hooks.setUp(Hooks.java:24)
+</pre></div></td>
+<td>0</td>
+<td>com.purna.runner.RunPurnaTest@710c2b53</td></tr>
+<tr>
+<td title='com.purna.runner.RunPurnaTest.runScenario()'><b>runScenario</b><br>Test class: com.purna.runner.RunPurnaTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able create purchase order successfully", "Purchase order functionality verification"</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;this.driver&quot; is null
+	at com.purna.libraries.BaseClass.getWebDriver(BaseClass.java:70)
+	at com.purna.stepdefinitions.Hooks.setUp(Hooks.java:24)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2126664214", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2126664214'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;this.driver&quot; is null
+	at com.purna.libraries.BaseClass.getWebDriver(BaseClass.java:70)
+	at com.purna.stepdefinitions.Hooks.setUp(Hooks.java:24)
+</pre></div></td>
+<td>0</td>
+<td>com.purna.runner.RunPurnaTest@710c2b53</td></tr>
+<tr>
+<td title='com.purna.runner.RunPurnaTest.runScenario()'><b>runScenario</b><br>Test class: com.purna.runner.RunPurnaTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to create inventory successfully", "Purna Inventory functionality verification"</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;this.driver&quot; is null
+	at com.purna.libraries.BaseClass.getWebDriver(BaseClass.java:70)
+	at com.purna.stepdefinitions.Hooks.setUp(Hooks.java:24)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2049837144", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2049837144'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;this.driver&quot; is null
+	at com.purna.libraries.BaseClass.getWebDriver(BaseClass.java:70)
+	at com.purna.stepdefinitions.Hooks.setUp(Hooks.java:24)
+</pre></div></td>
+<td>0</td>
+<td>com.purna.runner.RunPurnaTest@710c2b53</td></tr>
+<tr>
+<td title='com.purna.runner.RunPurnaTest.runScenario()'><b>runScenario</b><br>Test class: com.purna.runner.RunPurnaTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to create the Customer", "Customer module verification"</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;this.driver&quot; is null
+	at com.purna.libraries.BaseClass.getWebDriver(BaseClass.java:70)
+	at com.purna.stepdefinitions.Hooks.setUp(Hooks.java:24)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1536478396", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1536478396'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;this.driver&quot; is null
+	at com.purna.libraries.BaseClass.getWebDriver(BaseClass.java:70)
+	at com.purna.stepdefinitions.Hooks.setUp(Hooks.java:24)
+</pre></div></td>
+<td>1</td>
+<td>com.purna.runner.RunPurnaTest@710c2b53</td></tr>
+<tr>
+<td title='com.purna.runner.RunPurnaTest.runScenario()'><b>runScenario</b><br>Test class: com.purna.runner.RunPurnaTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that sales invoice is created successfully", "Purna Sales invoice functionality"</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;this.driver&quot; is null
+	at com.purna.libraries.BaseClass.getWebDriver(BaseClass.java:70)
+	at com.purna.stepdefinitions.Hooks.setUp(Hooks.java:24)
+</pre></div><a href='#' onClick='toggleBox("stack-trace233343686", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace233343686'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;this.driver&quot; is null
+	at com.purna.libraries.BaseClass.getWebDriver(BaseClass.java:70)
+	at com.purna.stepdefinitions.Hooks.setUp(Hooks.java:24)
+</pre></div></td>
+<td>0</td>
+<td>com.purna.runner.RunPurnaTest@710c2b53</td></tr>
+</table><p>
+</body>
+</html>
