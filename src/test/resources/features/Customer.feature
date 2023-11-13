@@ -2,7 +2,7 @@ Feature: Customer module verification
   This feature will verify Customer functionalities
   
   
-  @RegressionTest123
+  @RegressionTest
   Scenario Outline: Verify that user is able to create the Customer
   Given User is on Purna login page "<TestCase_ID>" "Customer"
   When User on Login Page enters valid username and password

@@ -1,6 +1,6 @@
 Feature: Purna Inventory functionality verification
 
-@RegressionTest12345
+@RegressionTest
 Scenario Outline: Verify that user is able to create inventory successfully
 Given User is logged into Purna application "<TestCase_ID>" "Inventory"
 When user clicks on main menu

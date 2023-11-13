@@ -1,7 +1,7 @@
 Feature: Verify Project functionality
   I want to Verify Project functionality
   
-  @RegressionTest123
+  @RegressionTest
   Scenario Outline: Verify that user is able to create new project
   Given User is logged into Purna application "<TestCase_ID>" "Project"
   When user clicks on main menu
