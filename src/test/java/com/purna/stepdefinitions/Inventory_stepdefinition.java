@@ -1,15 +1,8 @@
 package com.purna.stepdefinitions;
 
-import java.time.Duration;
-
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.ExpectedCondition;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.purna.libraries.TestContext;
 import com.purna.libraries.Utilities;
@@ -18,8 +11,6 @@ import com.purna.pages.LoginPage;
 import com.purna.pages.PurchaseItemDashPage;
 import com.purna.pages.PurchaseItemPage;
 
-import io.cucumber.java.Before;
-import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
