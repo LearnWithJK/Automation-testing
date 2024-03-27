@@ -53,4 +53,9 @@ public class Common_StepDefinitions extends Utilities
 	public void user_clicks_on_main_menu() {
     	dashboardPage.link_main.click();
 	}
+    
+    @When("user clicks on ok button on popup")
+	public void user_clicks_on_ok_button_on_popup() {
+	  acceptAlert(driver);
+	}
 }
