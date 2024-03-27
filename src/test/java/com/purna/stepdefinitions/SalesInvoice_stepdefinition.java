@@ -41,7 +41,7 @@ public class SalesInvoice_stepdefinition extends Utilities{
 		onSalesInvoicePage.txtbox_powo.sendKeys(testContext.getMapTestData().get("powoNo"));
 		onSalesInvoicePage.txtbox_powoDate.sendKeys(testContext.getMapTestData().get("powo_date"));
 		
-		doDropDownUsingValue(onSalesInvoicePage.dropdown_billTo, "Ms Dhoni");
+		doDropDownUsingValue(onSalesInvoicePage.dropdown_billTo, "Sakshi");
 		
 		
 	}
@@ -57,7 +57,7 @@ public class SalesInvoice_stepdefinition extends Utilities{
 	}
 	@Then("new sales invoice should be created")
 	public void new_sales_invoice_should_be_created() {
-	    Assert.assertEquals("Ms Dhoni", driver.findElement(By.xpath("//td[text()='Ms Dhoni']")).getText());
+	    Assert.assertEquals("Sakshi", driver.findElement(By.xpath("//td[text()='Sakshi']")).getText());
 	}
 
 }

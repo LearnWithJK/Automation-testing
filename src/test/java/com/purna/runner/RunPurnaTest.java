@@ -9,6 +9,8 @@ import io.cucumber.testng.CucumberOptions;
 		tags = "@RegressionTest", 
 		features = "src/test/resources/features", 
 		glue = "com.purna.stepdefinitions",
+//		dryRun=true,
+		monochrome = true,
 		plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" })
 
 public class RunPurnaTest extends AbstractTestNGCucumberTests {

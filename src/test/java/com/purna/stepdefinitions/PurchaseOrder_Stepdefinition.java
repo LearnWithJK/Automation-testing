@@ -56,7 +56,7 @@ public class PurchaseOrder_Stepdefinition {
 	}
 	@When("User enters purchase invoice details")
 	public void user_enters_below_purchase_invoice_details() {
-		utils.doDropDownUsingVisibleText(purchseInvoicePage.dropdown_suppName, "John");
+		utils.doDropdownUsingIndex(purchseInvoicePage.dropdown_suppName, 1);
 		purchseInvoicePage.textbox_contactNo.sendKeys(testContext.getMapTestData().get("contactNo"));
 		utils.doDropDownUsingValue(purchseInvoicePage.dropdown_creditPeriod, "15 DAYS");
 		purchseInvoicePage.textbox_creditPeriodName.sendKeys(testContext.getMapTestData().get("CrditPeriodName"));

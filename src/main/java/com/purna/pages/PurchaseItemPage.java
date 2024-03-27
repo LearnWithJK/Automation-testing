@@ -29,12 +29,14 @@ public class PurchaseItemPage {
 	@FindBy(id="weight")
 	public WebElement textbox_weight;
 	
-	
 	@FindBy(id="txt_rate")
 	public WebElement textbox_rate;
 	
 	@FindBy(id="txt_qty")
 	public WebElement textbox_quantity;
+	
+	@FindBy(id = "txt_discount")      
+	public WebElement textbox_discount;
 	
 	@FindBy(id="txt_amount")
 	public WebElement textbox_amount;

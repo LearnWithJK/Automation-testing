@@ -47,8 +47,7 @@ public class BaseClass implements Constants
             String browser = configProperties.getProperty("browser");
             switch (browser)
             {
-                case "Chrome":      
-                		
+                case "Chrome":                  		
                         driver = new ChromeDriver();
                         break;
                 case "Edge":                   
@@ -76,7 +75,7 @@ public class BaseClass implements Constants
         return driver;
     }
 
-  //* This method is used to read the data from property filr *//
+  //* This method is used to read the data from property file *//
     private void readConfigData()
     {
         BufferedReader reader;

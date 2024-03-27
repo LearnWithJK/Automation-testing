@@ -1,70 +1,80 @@
 {
-  "testData": {
-    "commonTestData" : {
-      "key1" : "value1",
-      "key2" : "value2"
-    },
-    "Purna_TC_001" : {
-      "username" : "admin",
-      "password" : "admin",
-      "expectedUrl":"https://www.purnadata.in/PurnaDemo/sale_dashboard.php",
-      "CustName":"John",
-      "contactNumber":"12345678"
-    },
-    "Purna_TC_002" : {
-      "username" : "mark@gmail.com",
-      "password" : "waugh"
-    },
-    "Purna_TC_003" : {
-      "username" : "mark@gmail.com",
-      "password" : "taylor"
-    },
-    "Purna_TC_004" : {
-      "username" : "mark@gmail.com",
-      "password" : "taylor"
-    },
-    "Purna_TC_005" : {
-      "invoiceNo" : "909090",
-      "powo" : "powo1234",
-      "powoDate": "21/01/2023",
-      "contactNumber":"8888123789"
-    },
-    "Purna_TC_006" : {
-      
-    },
-    "Purna_TC_007" : {
-      "srNo" : "100123",
-      "projectCode" : "PR0123",
-      "projectName" : "PurnaData",
-      "budgetAmout" : "100000",
-      "customerName": "Sachin"
-    },
-    "Purna_TC_008" : {
-      "contactNo" : "8888146874",
-      "CrditPeriodName" : "CR123",
-      "amount" : "12000"
-    },
-    "Purna_TC_009" : {
-      "contactNo" : "8888146874",
-      "CrditPeriodName" : "CR123",
-      "amount" : "12000"
-    },
-    "Purna_TC_010" : { 
-    "srNumber" : "98760",
-    "itemCode" : "Dairy_1234",
-    "itemname" : "Dairy",
-    "supCode" : "PR1234",
-    "weight" : "50",
-    "rate" : "70",
-    "quantity" : "100"
-    },
-    "Purna_TC_011" : {
-      "powoNo" : "powo_12345",
-      "powo_date" : "04/06/2023"
-    },
-    "Purna_TC_012" : {
-      "powoNo" : "powo_12345",
-      "powo_date" : "04/06/2023"
-    }
-  }
+	"testData": {
+		"commonTestData": {
+			"key1": "value1",
+			"key2": "value2"
+		},
+		"Purna_TC_001": {
+			"username": "admin",
+			"password": "admin",
+			"expectedUrl": "https://www.purnadata.in/PurnaDemo/sale_dashboard.php",
+			"CustName": "John",
+			"contactNumber": "12345678"
+		},
+		"Purna_TC_002": {
+			"username": "mark@gmail.com",
+			"password": "waugh"
+		},
+		"Purna_TC_003": {
+			"username": "mark@gmail.com",
+			"password": "taylor"
+		},
+		"Purna_TC_004": {
+			"username": "mark@gmail.com",
+			"password": "taylor"
+		},
+		"Purna_TC_005": {
+			"invoiceNo": "909090",
+			"powo": "powo1234",
+			"powoDate": "21/01/2023",
+			"contactNumber": "8888123789"
+		},
+		"Purna_TC_006": {
+		},
+		"Purna_TC_008": {
+			"contactNo": "8888146874",
+			"CrditPeriodName": "CR123",
+			"amount": "12000"
+		},
+		"Purna_TC_009": {
+			"contactNo": "8888146874",
+			"CrditPeriodName": "CR123",
+			"amount": "12000"
+		},
+		"Purna_TC_010": {
+			"srNumber": "98760",
+			"itemCode": "Dairy_1234",
+			"itemname": "Dairy",
+			"supCode": "PR1234",
+			"weight": "50",
+			"rate": "70",
+			"quantity": "100"
+		},
+		"Purna_TC_011": {
+			"powoNo": "powo_12345",
+			"powo_date": "04/06/2023"
+		},
+		"Purna_TC_012": {
+			"powoNo": "powo_12345",
+			"powo_date": "04/06/2023"
+		},
+		"Purna_TC_013": {
+			"srNumber": "PR01234",
+			"projectCode": "PR01234",
+			"projectName": "Hospital",
+			"remark": "project in progress",
+			"budgetAmout": "150000",
+			"customerName": "Sachin"
+		},
+		"Purna_TC_014": {
+			"srNumber": "987601234",
+			"itemCode": "Grocery123",
+			"itemname": "Sugar",
+			"supCode": "GC1234",
+			"weight": "50",
+			"rate": "70",
+			"discount" :"5",
+			"quantity": "100"
+		}
+	}
 }

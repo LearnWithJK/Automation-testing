@@ -32,5 +32,8 @@ public class ProjectPage {
 	@FindBy(linkText="Project Details")
 	public WebElement link_projectDetails;
 	
+	@FindBy(id="remark")
+	public WebElement textbox_remark;
+	
 	
 }

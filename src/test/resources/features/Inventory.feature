@@ -1,16 +1,16 @@
-Feature: Purna Inventory functionality verification
+Feature: Validation of Inventory functionality
 
-@RegressionTest
-Scenario Outline: Verify that user is able to create new inventory successfully
-Given User is logged into Purna application "<TestCase_ID>" "Inventory"
-When user clicks on main menu
-When user clicks on Inventory link
-When user clicks on Add new Item button
-When user enters inventory details
-When user clicks on Add Item button
-When user clicks on Item details button
-Then Inventory should be created
+  @RegressionTest @smoke
+  Scenario Outline: Verify create inventory - success
+    Given User is logged into Purna application "<TestCase_ID>" "Inventory"
+    When user clicks on main menu
+    When user clicks on inventory link
+    When user clicks on Add New Item button
+    When user enters inventory details
+    When user submits inventory
+    When user clicks on Item details button
+    Then user verifies that inventory is created
 
-Examples:
-      | TestCase_ID |
-      | Purna_TC_010|
+    Examples: 
+      | TestCase_ID  |
+      | Purna_TC_014 |
