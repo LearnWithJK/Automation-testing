@@ -15,4 +15,4 @@ Feature: Verify Project functionality
 
     Examples: 
       | TestCase_ID  |
-      | Purna_TC_013 |
+      | Purna_TC_015 |

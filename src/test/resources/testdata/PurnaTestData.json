@@ -75,6 +75,12 @@
 			"rate": "70",
 			"discount" :"5",
 			"quantity": "100"
+		},
+		"Purna_TC_015": {
+			"projectCode": "PRO2345",
+			"projectName": "Purna App",
+			"Remark": "In Progress",
+			"budgetAmout": "50000"		
 		}
 	}
 }
