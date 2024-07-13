@@ -29,8 +29,20 @@ public class PurchseInvoicePage {
 	@FindBy(id="cgst")
 	public WebElement dropdown_cgst;
 	
+	@FindBy(id="igst")
+	public WebElement dropdown_igst;
+	
+	@FindBy(id="sgst")
+	public WebElement dropdown_sgst;
+	
 	@FindBy(id="myButtonlast")
 	public WebElement btn_calculate;
+	
+	@FindBy(id = "packing_and_forwarding")
+	public WebElement textbox_packingAndForwarding;
+	
+	@FindBy(id = "deliverycharges")
+	public WebElement textbox_deliveryCharges;
 	
 	@FindBy(id="btn")
 	public WebElement btn_save;	

@@ -14,6 +14,5 @@ public class PurchaseDashboardPage {
 	@FindBy(name="btn_new_party")
 	public WebElement btn_newPuchaseInvoice;
 	
-	@FindBy(xpath="//td[text()='John']/following::a[text()='Delete']")
-	public WebElement link_delete;
+	
 }
