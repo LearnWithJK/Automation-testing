@@ -13,7 +13,7 @@
 		<cucumber.version>7.6.0</cucumber.version>
 		<extentreports.cucumber7.adapter.version>1.7.0</extentreports.cucumber7.adapter.version>
 		<extentreports.version>5.0.9</extentreports.version>
-		<selenium.version>4.14.1</selenium.version>
+		<selenium.version>4.20.0</selenium.version>
 		<webdrivermanager.version>5.2.1</webdrivermanager.version>
 		<testng.version>7.6.1</testng.version>
 		<apache.common.version>2.4</apache.common.version>
