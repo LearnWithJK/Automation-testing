@@ -1,5 +1,4 @@
 {
-	"testData": {
 		"Purna_TC_001": {
 			"expectedUrl": "https://www.purnadata.in/PurnaDemo/sale_dashboard.php",
 			"CustName": "John",
@@ -81,6 +80,13 @@
 			"contactNo": "8888146874",
 			"CrditPeriodName": "CR123",
 			"amount": "12000"			
+		},"Purna_TC_017": {
+			"itemcodes": "Dairy_1234",
+			"itemname": "Dairy",
+			"supCode": "PR1234",
+			"weight": "50",
+			"rate": "70",
+			"quantity": "100"		
 		}
-	}
+
 }
