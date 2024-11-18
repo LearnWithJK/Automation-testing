@@ -11,11 +11,11 @@ public class PurchaseItemDashPage {
 		PageFactory.initElements(driver,this);
 	}
 	
-	@FindBy(name="btn_new_party")
-	public WebElement btn_addNewItem;
-	
 	@FindBy(linkText="Delete")
 	public WebElement link_delete;
+	
+	@FindBy(name="btn_new_party")
+	public WebElement btn_addNewItem;
 	
 	
 }
